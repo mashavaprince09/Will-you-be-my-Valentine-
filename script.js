@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "I might die if you don't agree...",
         "I'm dead now 🥴...",
         "Okay fine, I will stop asking...",
-        "Sike! I'll keep asking you agree ❤️",
+        "Sike! I'll keep asking until you agree ❤️",
         "Pleaaase say yes"
     ];
 
