@@ -7,11 +7,19 @@ body {
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;    
   }
   
   .container {
     text-align: center;
+    max-width: 800px; /* Limit width for readability */
   }
+
+p {
+    font-size: 16px;
+    line-height: 1.6; /* Optional: improves readability */
+}
   
   h1 {
     font-size: 2.5em;
@@ -49,3 +57,4 @@ body {
     border-radius: 10px;
     margin-top: 20px;
   }
+
