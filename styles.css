@@ -1,62 +1,59 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; /* Adjust this to start from the top */
     min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
     flex-direction: column;
-  }
-  
-  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.container {
     text-align: center;
     width: 100%; /* Make sure it uses the full width */
     max-width: 800px; /* Optionally limit the maximum width for better readability */
-    padding-left: 50px;
-    padding-right: 50px;    
-    padding-top: 50px;
 }
 
 p {
     font-size: 16px;
-    line-height: 1.6; /* Optional: improves readability */   
+    line-height: 1.6;
 }
-  
-  h1 {
+
+h1 {
     font-size: 2.5em;
     color: #d32f2f;
-  }
-  
-  .buttons {
+}
+
+.buttons {
     margin-top: 20px;
-  }
-  
-  .yes-button {
+}
+
+.yes-button, .no-button {
     font-size: 1.5em;
     padding: 10px 20px;
     margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.yes-button {
     background-color: #4caf50;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .no-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
+}
+
+.no-button {
     background-color: #f44336;
     color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .gif_container img {
+}
+
+.gif_container img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
-  }
-
+}
