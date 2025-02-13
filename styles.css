@@ -15,7 +15,6 @@ body {
 .container {
     text-align: center;
     width: 100%; /* Make sure it uses the full width */
-    max-width: 800px; /* Optionally limit the maximum width for better readability */
 }
 
 p {
