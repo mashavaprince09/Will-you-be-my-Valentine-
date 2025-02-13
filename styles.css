@@ -1,8 +1,8 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
@@ -14,7 +14,9 @@ body {
   
   .container {
     text-align: center;
-  }
+    width: 100%; /* Make sure it uses the full width */
+    max-width: 800px; /* Optionally limit the maximum width for better readability */
+}
 
 p {
     font-size: 16px;
