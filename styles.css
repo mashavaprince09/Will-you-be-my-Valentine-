@@ -7,15 +7,15 @@ body {
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;    
-    padding-top: 50px;
   }
   
   .container {
     text-align: center;
     width: 100%; /* Make sure it uses the full width */
     max-width: 800px; /* Optionally limit the maximum width for better readability */
+    padding-left: 50px;
+    padding-right: 50px;    
+    padding-top: 50px;
 }
 
 p {
