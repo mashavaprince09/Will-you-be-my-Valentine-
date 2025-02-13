@@ -17,9 +17,7 @@ body {
 
 p {
     font-size: 28px;
-    line-height: 1.6; /* Optional: improves readability */
-    padding-left: 50px;
-    padding-right: 50px;      
+    line-height: 1.6; /* Optional: improves readability */   
 }
   
   h1 {
