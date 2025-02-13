@@ -9,6 +9,7 @@ body {
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;    
+    padding-top: 50px;
   }
   
   .container {
@@ -16,7 +17,7 @@ body {
   }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.6; /* Optional: improves readability */   
 }
   
